@@ -40,6 +40,7 @@ def main():
     p2.like(u4)
     p1.like(u4)
     p1.like(u2)
+    """
     p1.comment(u3, "Columbus's bold journey!")
     p2.comment(u1, "So beautiful!")
     p2.like(u1)
@@ -71,7 +72,7 @@ def main():
 
     p2.comment(u5, "Amazing picture!")
     print()
-
+"""
     # Using unfollow
     u2.unfollow(u1)
     u3.unfollow(u2)
@@ -81,7 +82,7 @@ def main():
     network.log_out("Charlie")
     network.log_in("Charlie", "pass3")
     print()
-
+    """
     # User printing
     print(u1)
     print()
@@ -96,6 +97,7 @@ def main():
 
     # Network printing
     print(network, end='')
+"""
 
 
 if __name__ == '__main__':
