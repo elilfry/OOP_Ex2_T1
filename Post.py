@@ -45,8 +45,9 @@ from abc import ABC, abstractmethod
 
 # Post interface
 class Post(ABC):
-    def __init__(self, owner):
+    def __init__(self, owner, context):
         self.owner = owner
+        self.context = context
         self.like_counter = 0
 
 

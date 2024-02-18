@@ -32,7 +32,7 @@ class User:
     #     PostFactory.create_post(post_type, context)
 
     def publish_post(self, post_type, context, price=None, location=None):
-        post = PostFactory.create_post(self, post_type, context, price, location)
+        post = self.PostFactory.create_post(self, post_type, context, price, location)
 
     class PostFactory:
         @staticmethod
