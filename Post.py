@@ -10,46 +10,59 @@ data
 """
 from enum import Enum
 from abc import ABC, abstractmethod
-from SocialNetwork import SocialNetwork
 
-# Enum to represent Post types
-class PostType(Enum):
-    Text = "Text"
-    Image = "Image"
-    Sale = "Sale"
+# from SocialNetwork import SocialNetwork
+
+
+
+# class PostType(Enum):
+#     Text = "Text"
+#     Image = "Image"
+#     Sale = "Sale"
 
 
 # Factory class
-class PostFactory:
-    def create_post(self, post_type, context):
-        if post_type == PostType.Text:
-            return TextPost(context)
-        elif post_type == PostType.Image:
-            return ImagePost(context)
-        else:
-            raise ValueError("Invalid post type")
 
-    def create_post(self, post_type, objectForSale, price, location):
-        if post_type == PostType.Sale:
-            return SalePost(objectForSale,price,location)
-        else:
-            raise ValueError("Invalid post type")
+# class PostFactory:
+#     @staticmethod
+#     def create_post(user, post_type, context , price=None, location=None):
+#         if post_type == "Text":
+#             return TextPost(user, context)
+#         elif post_type == "Image":
+#             return ImagePost(user ,context)
+#         if post_type == "Sale":
+#             return SalePost(user ,context,price,location)
+#         else:
+#             return None
+            # raise ValueError("Invalid post type")
+
+    # def create_post(self, post_type, objectForSale, price, location):
+    #     if post_type == PostType.Sale:
+    #         return SalePost(objectForSale,price,location)
+    #     else:
+    #         raise ValueError("Invalid post type")
 
 
 # Post interface
 class Post(ABC):
-    
-    owner =
+    def __init__(self, owner):
+        self.owner = owner
+        self.like_counter = 0
 
-    @abstractmethod
+
+
     def like(self, user):
-        if not user.online and user.name !=  self.owner
+        if user.online and user.name !=  self.owner:
+            self.like_counter += 1
+            print(user.name + "like post of " + self.owner)
+            #send notification
+
+    # @abstractmethod
+    # def comment(self, user, context):
+    #     pass
 
 
 
 
-    @abstractmethod
-    def comment(self, user, context):
-        pass
 
 

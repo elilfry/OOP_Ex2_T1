@@ -14,7 +14,7 @@ class User:
     def __init__(self, name, password, online):
         self.name = name
         self.password = password
-        self.online = online
+        self.online = True
         self.followers = []
 
     # new follower
@@ -28,32 +28,21 @@ class User:
         self.followers.remove(usr)
         print(usr.name + " unfollowed " + self.name)
 
-    def publish_post(self, post_type, context):
-        PostFactory.create_post(post_type, context)
+    # def publish_post(self, post_type, context ,):
+    #     PostFactory.create_post(post_type, context)
 
-    def publish_post(self, post_type, objectForSale, price, location):
-        PostFactory.create_post(post_type, objectForSale, price, location)
+    def publish_post(self, post_type, context, price=None, location=None):
+        post = PostFactory.create_post(self, post_type, context, price, location)
 
+    class PostFactory:
+        @staticmethod
+        def create_post(user, post_type, context, price=None, location=None):
+            if post_type == "Text":
+                return TextPost(user, context)
+            elif post_type == "Image":
+                return ImagePost(user, context)
+            if post_type == "Sale":
+                return SalePost(user, context, price, location)
+            else:
+                return None
 
-    """
-     #function
-
-      #follow
-      
-      #unfollow
-      
-      
-      
-      
-
-     #publish_post
-
-      
-
-     #notification
-
-
-     #to string
-
-     #print all notification the user had
-"""

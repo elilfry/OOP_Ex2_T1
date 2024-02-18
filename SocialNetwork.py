@@ -25,8 +25,6 @@ class SocialNetwork:
 
             return new_user  # return the new user
 
-
-
     def log_in(self, name, password):
         user = self.get_user(name)
         if user and user.password == password:

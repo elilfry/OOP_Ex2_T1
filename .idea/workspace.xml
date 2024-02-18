@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="402e473e-d440-4886-ab5b-de95d276fd91" name="Changes" comment="17.2 23:56">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
@@ -13,9 +14,10 @@
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <list id="1b55b70f-58e2-49ff-bf66-cd63b827990e" name="Changes by matanmarkovits" comment="">
+      <change beforePath="$PROJECT_DIR$/Post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +35,44 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/User.py">
-      <ranges>
-        <range start1="0" end1="0" start2="0" end2="2" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="18" end1="19" start2="20" end2="21" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="20" end1="20" start2="22" end2="24" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="22" end1="23" start2="26" end2="27" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="24" end1="24" start2="28" end2="29" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="25" end1="25" start2="30" end2="35" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-      </ranges>
-    </file>
     <file path="$PROJECT_DIR$/SocialNetwork.py">
       <ranges>
-        <range start1="17" end1="17" start2="17" end2="19" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="22" end1="22" start2="24" end2="28" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="27" end1="27" start2="33" end2="34" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="30" end1="30" start2="37" end2="38" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="47" end1="47" start2="55" end2="57" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="14" end1="14" start2="14" end2="26" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="22" end1="23" start2="34" end2="35" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="27" end1="29" start2="39" end2="39" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="57" end1="57" start2="67" end2="68" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
       </ranges>
     </file>
-    <file path="$PROJECT_DIR$/main.py">
+    <file path="$PROJECT_DIR$/User.py">
       <ranges>
-        <range start1="42" end1="42" start2="42" end2="43" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="73" end1="74" start2="74" end2="75" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="83" end1="84" start2="84" end2="85" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="98" end1="98" start2="99" end2="100" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="0" end1="2" start2="0" end2="4" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="13" end1="14" start2="15" end2="18" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="16" end1="17" start2="20" end2="21" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="30" end1="49" start2="34" end2="36" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="50" end1="51" start2="37" end2="51" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="52" end1="53" start2="52" end2="52" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="54" end1="59" start2="53" end2="53" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/TextPost.py">
+      <ranges>
+        <range start1="5" end1="7" start2="5" end2="5" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="8" end1="10" start2="6" end2="11" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="12" end1="14" start2="13" end2="14" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Post.py">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="1" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="12" end1="13" start2="13" end2="15" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="14" end1="19" start2="16" end2="22" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="22" end1="30" start2="25" end2="25" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="31" end1="36" start2="26" end2="44" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="40" end1="42" start2="48" end2="52" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="43" end1="44" start2="53" end2="54" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="45" end1="46" start2="55" end2="59" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="47" end1="47" start2="60" end2="63" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="50" end1="53" start2="66" end2="67" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
       </ranges>
     </file>
   </component>
@@ -127,7 +142,8 @@
       <updated>1708012514917</updated>
       <workItem from="1708012580209" duration="1199000" />
       <workItem from="1708067615615" duration="9701000" />
-      <workItem from="1708198508813" duration="7986000" />
+      <workItem from="1708198508813" duration="8891000" />
+      <workItem from="1708276522796" duration="8371000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -145,7 +161,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708077457407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="17.2 23:56">
+      <option name="closed" value="true" />
+      <created>1708207549548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708207549548</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +193,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="17.2 23:56" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OOP_Ex2_T1$main.coverage" NAME="main Coverage Results" MODIFIED="1708201103307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OOP_Ex2_T1$main.coverage" NAME="main Coverage Results" MODIFIED="1708284914057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

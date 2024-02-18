@@ -30,6 +30,7 @@ def main():
     p1 = u1.publish_post("Text", "In 1492, Christopher Columbus set sail,\n"
                                  "hoping to find a westward route to Asia, but instead,\n"
                                  "he discovered the Americas, changing the course of history forever.")
+    """
     # Creating image post
     p2 = u4.publish_post("Image", 'image1.jpg')
 
@@ -40,7 +41,7 @@ def main():
     p2.like(u4)
     p1.like(u4)
     p1.like(u2)
-    """
+    
     p1.comment(u3, "Columbus's bold journey!")
     p2.comment(u1, "So beautiful!")
     p2.like(u1)
