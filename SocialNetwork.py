@@ -12,6 +12,18 @@ from User import User
 
 
 class SocialNetwork:
+
+    __instance = None
+
+    # def __new__(cls, name):
+    #     # If an instance does not exist, create one
+    #     if cls.__instance is None:
+    #         cls.__instance = super().__new__(cls)
+    #     cls.__instance.name = name
+    #     cls.__instance.__users = []
+    #     print("The social network " + name + " was created!")
+    #     return cls.__instance
+
     def __init__(self, name):
         self.name = name
         self.__users = []
@@ -20,7 +32,7 @@ class SocialNetwork:
 
     def sign_up(self, name, password):
         if self.valid_password and self.valid_name:
-            new_user = User(name, password, True)
+            new_user = User(name, password)
             self.__users.append(new_user)
 
             return new_user  # return the new user

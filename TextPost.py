@@ -15,5 +15,3 @@ class TextPost(Post):
         return f"{self.user.name} published a post:\n{self.context}"  #fix the " "
 
 
-def __init__(self, context):
-    self.context = context

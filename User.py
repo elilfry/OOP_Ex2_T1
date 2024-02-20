@@ -1,5 +1,8 @@
-#from SocialNetwork import SocialNetwork
-from Post import PostFactory
+from ImagePost import ImagePost
+from SalePost import SalePost
+
+from TextPost import TextPost
+
 """
 data
 
@@ -11,7 +14,9 @@ data
 
 
 class User:
-    def __init__(self, name, password, online):
+    online = None
+
+    def __init__(self, name, password):
         self.name = name
         self.password = password
         self.online = True
