@@ -30,12 +30,9 @@ def main():
     p1 = u1.publish_post("Text", "In 1492, Christopher Columbus set sail,\n"
                                  "hoping to find a westward route to Asia, but instead,\n"
                                  "he discovered the Americas, changing the course of history forever.")
-    print(p1)
-    print()
-    """
     # Creating image post
     p2 = u4.publish_post("Image", 'image1.jpg')
-
+    """""
     # Creating sale post
     p3 = u3.publish_post("Sale", "Toyota prius 2012", 42000, "Haifa")
 
@@ -43,7 +40,6 @@ def main():
     p2.like(u4)
     p1.like(u4)
     p1.like(u2)
-    
     p1.comment(u3, "Columbus's bold journey!")
     p2.comment(u1, "So beautiful!")
     p2.like(u1)
@@ -75,7 +71,7 @@ def main():
 
     p2.comment(u5, "Amazing picture!")
     print()
-"""
+"""""
     # Using unfollow
     u2.unfollow(u1)
     u3.unfollow(u2)
@@ -85,7 +81,7 @@ def main():
     network.log_out("Charlie")
     network.log_in("Charlie", "pass3")
     print()
-    """
+
     # User printing
     print(u1)
     print()
@@ -93,15 +89,14 @@ def main():
     # Post printing
     print(p1)
     print(p2)
-
+    """""
     # Printing all notifications received by a certain user
     u4.print_notifications()
     print()
 
     # Network printing
     print(network, end='')
-"""
 
-
+    """""
 if __name__ == '__main__':
     main()
