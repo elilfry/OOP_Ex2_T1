@@ -21,3 +21,8 @@ class SalePost(Post):
         self.price = price
         self.location =location
 
+    def discount(self):
+        pass
+
+    def sold(self):
+        pass

@@ -30,6 +30,8 @@ def main():
     p1 = u1.publish_post("Text", "In 1492, Christopher Columbus set sail,\n"
                                  "hoping to find a westward route to Asia, but instead,\n"
                                  "he discovered the Americas, changing the course of history forever.")
+    print(p1)
+    print()
     """
     # Creating image post
     p2 = u4.publish_post("Image", 'image1.jpg')

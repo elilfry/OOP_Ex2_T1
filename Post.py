@@ -45,17 +45,18 @@ from abc import ABC, abstractmethod
 
 # Post interface
 class Post(ABC):
-    def __init__(self, owner, context):
-        self.owner = owner
+    def __init__(self, user, context):
+        self.user = user
         self.context = context
         self.like_counter = 0
 
-
+    def __str__(self):
+        return self.context
 
     def like(self, user):
-        if user.online and user.name !=  self.owner:
+        if user.online and user.name !=  self.user:
             self.like_counter += 1
-            print(user.name + "like post of " + self.owner)
+            print(user.name + "like post of " + self.user)
             #send notification
 
     # @abstractmethod
