@@ -27,11 +27,11 @@ class SalePost(Post):
         return f"{self.user.name} posted a product for sale:\n{self.available} {self.content}, price: {self.price}, pickup from: {self.location}\n"
 
     def discount(self, discount, password):
-        if password == self.user.password:
+        if password == self.user.password and self.user.online:
             self.price = (self.price * (1-(discount/100)))
             print(f"Discount on {self.user.name} product! the new price is: {self.price}")
 
     def sold(self, password):
-        if password == self.user.password:
+        if password == self.user.password and self.user.online:
             self.available = "Sold!"
             print(f"{self.user.name}'s product is sold")

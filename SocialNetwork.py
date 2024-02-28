@@ -1,5 +1,5 @@
 """
-singelton
+
 name
 users
 
@@ -12,17 +12,18 @@ from User import User
 
 
 class SocialNetwork:
-
     __instance = None
 
-    # def __new__(cls, name):
-    #     # If an instance does not exist, create one
-    #     if cls.__instance is None:
-    #         cls.__instance = super().__new__(cls)
-    #     cls.__instance.name = name
-    #     cls.__instance.__users = []
-    #     print("The social network " + name + " was created!")
-    #     return cls.__instance
+    def __new__(cls, name):
+        # If an instance does not exist, create one
+        if cls.__instance is None:
+            cls.__instance = super().__new__(cls)
+        cls.__instance.name = name
+        cls.__instance.__users = []
+
+        # print("The social network " + name + " was created!")
+
+        return cls.__instance
 
     def __init__(self, name):
         self.name = name
@@ -36,6 +37,10 @@ class SocialNetwork:
             self.__users.append(new_user)
 
             return new_user  # return the new user
+
+    def __str__(self):
+        users_info = "\n".join(f"{users}" for users in self.__users)
+        return f"Twitter social network:\n{users_info}"
 
     def log_in(self, name, password):
         user = self.get_user(name)

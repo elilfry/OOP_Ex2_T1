@@ -1,4 +1,3 @@
-
 """
 user
 data
@@ -9,11 +8,11 @@ data
 
 #comment
 """
-from enum import Enum
+# from enum import Enum
 from abc import ABC, abstractmethod
 
-# from SocialNetwork import SocialNetwork
 
+# from SocialNetwork import SocialNetwork
 
 
 # class PostType(Enum):
@@ -35,13 +34,13 @@ from abc import ABC, abstractmethod
 #             return SalePost(user ,context,price,location)
 #         else:
 #             return None
-            # raise ValueError("Invalid post type")
+# raise ValueError("Invalid post type")
 
-    # def create_post(self, post_type, objectForSale, price, location):
-    #     if post_type == PostType.Sale:
-    #         return SalePost(objectForSale,price,location)
-    #     else:
-    #         raise ValueError("Invalid post type")
+# def create_post(self, post_type, objectForSale, price, location):
+#     if post_type == PostType.Sale:
+#         return SalePost(objectForSale,price,location)
+#     else:
+#         raise ValueError("Invalid post type")
 
 
 # Post interface
@@ -54,18 +53,11 @@ class Post(ABC):
     def __str__(self):
         return self.context
 
-    def like(self, user):
-        if user.online and user.name !=  self.user:
+    def like(self, liker):
+        if self.user.online and self.user.name != liker.name:
             self.like_counter += 1
-            print(user.name + "like post of " + self.user)
-            #send notification
+            print(liker.name + " like post of " + self.user.name)
+            # send notification
 
-    # @abstractmethod
-    # def comment(self, user, context):
-    #     pass
-
-
-
-
-
-
+    def comment(self, user, content):
+        pass

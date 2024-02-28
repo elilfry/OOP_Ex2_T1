@@ -11,7 +11,6 @@ class TextPost(Post):
         super().__init__(user, context)
         print(self.__str__())
 
-
     def __str__(self):
         return f"{self.user.name} published a post:\n\"{self.context}\"\n"
 
