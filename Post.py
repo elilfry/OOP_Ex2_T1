@@ -56,8 +56,10 @@ class Post(ABC):
     def like(self, liker):
         if self.user.online and self.user.name != liker.name:
             self.like_counter += 1
-            print(liker.name + " like post of " + self.user.name)
+            # print(liker.name + " like post of " + self.user.name)
             # send notification
+
 
     def comment(self, user, content):
         pass
+        # p3.comment(u2, "Can you give me your phone number?")

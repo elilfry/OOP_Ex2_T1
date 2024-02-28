@@ -13,7 +13,18 @@ data
 """
 
 
-class User:
+class Member(ABC):
+    @abstractmethod
+    def update(self, push):
+        pass
+
+
+class User(Member):
+    def update(self, push):
+        print(f"notification to {self.name}:")
+        # if it is a post notification
+        pass
+
     online = None
 
     def __init__(self, name, password):
@@ -28,13 +39,12 @@ class User:
 
     # new follower
     def follow(self, usr):
-        self.followers.append(usr)
-        # print(SocialNetwork.get_name(usr) + " started following " + SocialNetwork.get_name(self))
+        usr.followers.append(self)
         print(self.name + " started following " + usr.name)
 
     # remove follower
     def unfollow(self, usr):
-        self.followers.remove(usr)
+        usr.followers.remove(self)
         print(self.name + " unfollowed " + usr.name)
 
     # def publish_post(self, post_type, context ,):
@@ -42,8 +52,13 @@ class User:
 
     def publish_post(self, post_type, context, price=None, location=None):
         post = self.PostFactory.create_post(self, post_type, context, price, location)
-        self.post_counter +=1
+        self.post_counter += 1
+        self.notify(post)
         return post
+
+    def notify(self, post):
+        for follower in self.followers:
+            follower.update(post)
 
     class PostFactory:
         @staticmethod
@@ -57,3 +72,16 @@ class User:
             else:
                 return None
 
+# Observer interface
+# class Member(ABC):
+#     @abstractmethod def update(self, push):
+#             pass
+
+# Concrete implementation of Observer (Member)
+# class follower(Member):
+#
+#     def __init__(self, name):
+#         self._name = name
+#
+#     def update(self, push):
+#         print(f"{self._name} received newsletter: {push}")
