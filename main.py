@@ -32,9 +32,11 @@ def main():
                                  "he discovered the Americas, changing the course of history forever.")
     # Creating image post
     p2 = u4.publish_post("Image", 'image1.jpg')
-    """""
     # Creating sale post
     p3 = u3.publish_post("Sale", "Toyota prius 2012", 42000, "Haifa")
+
+
+    """""
 
     # Creating likes and comments
     p2.like(u4)
@@ -48,17 +50,17 @@ def main():
     p1.comment(u5, "A pivotal moment")
     p3.comment(u2, "Exorbitant price")
     print()
-
+    """""
     # Price reduction of the product for sale
     p3.discount(10, "pass3")
     print()
-
+    """""
     # more likes and comments
     p3.like(u2)
     p3.comment(u2, "Can you give me your phone number?")
     p3.comment(u4, "+97255576433")
     print()
-
+    """""
     # Defining the product as sold
     p3.sold("pass3")
     print()
@@ -68,14 +70,17 @@ def main():
     # Displaying the image of the post
     p2.display()
     print()
+    """""
 
     p2.comment(u5, "Amazing picture!")
     print()
-"""""
+    """""
+
     # Using unfollow
     u2.unfollow(u1)
     u3.unfollow(u2)
     print()
+    
 
     # Using log_in & log_out
     network.log_out("Charlie")

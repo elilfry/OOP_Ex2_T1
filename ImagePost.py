@@ -22,5 +22,4 @@ class ImagePost(Post):
         plt.imshow(image)
         plt.axis('off')  # Hide axis
         plt.show()
-
-
+        print("Shows picture")

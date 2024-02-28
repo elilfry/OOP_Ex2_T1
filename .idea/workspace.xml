@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402e473e-d440-4886-ab5b-de95d276fd91" name="Changes" comment="20.2 15:32">
+    <list default="true" id="402e473e-d440-4886-ab5b-de95d276fd91" name="Changes" comment="20.2 19:54">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
-    <list id="1b55b70f-58e2-49ff-bf66-cd63b827990e" name="Changes by matanmarkovits" comment="Changes by matanmarkovits">
+    <list id="1b55b70f-58e2-49ff-bf66-cd63b827990e" name="Changes by matanmarkovits" comment="20.2 19:56">
       <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +33,8 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/ImagePost.py">
       <ranges>
-        <range start1="1" end1="1" start2="1" end2="6" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="6" end1="6" start2="11" end2="15" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="8" end1="9" start2="17" end2="26" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="9" end1="11" start2="9" end2="11" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
+        <range start1="24" end1="26" start2="24" end2="25" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
       </ranges>
     </file>
   </component>
@@ -106,7 +107,10 @@
       <workItem from="1708198508813" duration="8891000" />
       <workItem from="1708276522796" duration="9543000" />
       <workItem from="1708369863760" duration="5947000" />
-      <workItem from="1708448585915" duration="3055000" />
+      <workItem from="1708448585915" duration="3249000" />
+      <workItem from="1709116785863" duration="640000" />
+      <workItem from="1709118290651" duration="59000" />
+      <workItem from="1709118363387" duration="3642000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -164,7 +168,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708435946741</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎-00008" summary="20.2 19:54">
+      <option name="closed" value="true" />
+      <created>1708451727074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708451727074</updated>
+    </task>
+    <task id="LOCAL‎-00009" summary="20.2 19:56">
+      <option name="closed" value="true" />
+      <created>1708451779437</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708451779437</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,9 +209,11 @@
     <MESSAGE value="18.2 21:54" />
     <MESSAGE value="20.2 15:32" />
     <MESSAGE value="Changes by matanmarkovits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by matanmarkovits" />
+    <MESSAGE value="20.2 19:54" />
+    <MESSAGE value="20.2 19:56" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.2 19:56" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OOP_Ex2_T1$main.coverage" NAME="main Coverage Results" MODIFIED="1708451616020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OOP_Ex2_T1$main.coverage" NAME="main Coverage Results" MODIFIED="1709121913556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
