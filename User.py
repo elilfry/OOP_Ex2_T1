@@ -1,3 +1,5 @@
+from abc import ABC, abstractmethod
+
 from ImagePost import ImagePost
 from SalePost import SalePost
 

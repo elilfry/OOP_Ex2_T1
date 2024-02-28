@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402e473e-d440-4886-ab5b-de95d276fd91" name="Changes" comment="28.2 22:02">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="402e473e-d440-4886-ab5b-de95d276fd91" name="Changes" comment="29.2 00:28" />
     <list id="1b55b70f-58e2-49ff-bf66-cd63b827990e" name="Changes by matanmarkovits" comment="20.2 19:56">
       <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Post.py" afterDir="false" />
@@ -31,41 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/User.py">
-      <ranges>
-        <range start1="0" end1="0" start2="0" end2="2" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="15" end1="16" start2="17" end2="29" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="17" end1="18" start2="30" end2="31" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="30" end1="32" start2="43" end2="44" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="36" end1="37" start2="48" end2="49" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="44" end1="45" start2="56" end2="58" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="47" end1="47" start2="60" end2="64" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="59" end1="59" start2="76" end2="89" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/Post.py">
-      <ranges>
-        <range start1="27" end1="28" start2="27" end2="28" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="29" end1="30" start2="29" end2="30" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="31" end1="32" start2="31" end2="32" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="33" end1="34" start2="33" end2="34" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="47" end1="48" start2="47" end2="48" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="49" end1="50" start2="49" end2="50" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="53" end1="54" start2="53" end2="54" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="58" end1="59" start2="58" end2="59" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="60" end1="60" start2="60" end2="61" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="63" end1="64" start2="64" end2="65" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/main.py">
-      <ranges>
-        <range start1="75" end1="76" start2="75" end2="76" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
-        <range start1="104" end1="105" start2="104" end2="105" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-        <range start1="108" end1="109" start2="108" end2="109" changelist="1b55b70f-58e2-49ff-bf66-cd63b827990e" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -141,7 +101,7 @@
       <workItem from="1709118290651" duration="59000" />
       <workItem from="1709118363387" duration="3869000" />
       <workItem from="1709146205309" duration="4412000" />
-      <workItem from="1709154277190" duration="4857000" />
+      <workItem from="1709154277190" duration="5035000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -231,7 +191,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1709150571523</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎-00012" summary="29.2 00:28">
+      <option name="closed" value="true" />
+      <created>1709159322431</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1709159322431</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +228,8 @@
     <MESSAGE value="20.2 19:56" />
     <MESSAGE value="28.2 14:08" />
     <MESSAGE value="28.2 22:02" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.2 22:02" />
+    <MESSAGE value="29.2 00:28" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.2 00:28" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP_Ex2_T1$main.coverage" NAME="main Coverage Results" MODIFIED="1709158631180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

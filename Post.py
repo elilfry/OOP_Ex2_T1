@@ -25,13 +25,13 @@ from abc import ABC, abstractmethod
 
 # class PostFactory:
 #     @staticmethod
-#     def create_post(user, post_type, context , price=None, location=None):
+#     def create_post(user, post_type, content , price=None, location=None):
 #         if post_type == "Text":
-#             return TextPost(user, context)
+#             return TextPost(user, content)
 #         elif post_type == "Image":
-#             return ImagePost(user ,context)
+#             return ImagePost(user ,content)
 #         if post_type == "Sale":
-#             return SalePost(user ,context,price,location)
+#             return SalePost(user ,content,price,location)
 #         else:
 #             return None
 # raise ValueError("Invalid post type")
@@ -45,13 +45,13 @@ from abc import ABC, abstractmethod
 
 # Post interface
 class Post(ABC):
-    def __init__(self, user, context):
+    def __init__(self, user, content):
         self.user = user
-        self.context = context
+        self.content = content
         self.like_counter = 0
 
     def __str__(self):
-        return self.context
+        return self.content
 
     def like(self, liker):
         if self.user.online and self.user.name != liker.name:

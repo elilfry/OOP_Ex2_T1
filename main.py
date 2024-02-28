@@ -102,10 +102,10 @@ def main():
     # Printing all notifications received by a certain user
     u4.print_notifications()
     print()
-
+    """""
     # Network printing
     print(network, end='')
 
-    """""
+
 if __name__ == '__main__':
     main()
