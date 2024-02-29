@@ -40,7 +40,7 @@ class SocialNetwork:
 
     def __str__(self):
         users_info = "\n".join(f"{users}" for users in self.__users)
-        return f"Twitter social network:\n{users_info}"
+        return f"Twitter social network:\n{users_info}\n"
 
     def log_in(self, name, password):
         user = self.get_user(name)

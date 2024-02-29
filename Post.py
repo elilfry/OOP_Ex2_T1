@@ -56,9 +56,9 @@ class Post(ABC):
     def like(self, liker):
         if self.user.online and self.user.name != liker.name:
             self.like_counter += 1
+            self.user.notify(self, "like", liker)
             # print(liker.name + " like post of " + self.user.name)
             # send notification
-
 
     def comment(self, user, content):
         pass

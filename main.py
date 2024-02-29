@@ -98,11 +98,11 @@ def main():
     # Post printing
     print(p1)
     print(p2)
-    """""
+
     # Printing all notifications received by a certain user
     u4.print_notifications()
     print()
-    """""
+
     # Network printing
     print(network, end='')
 
