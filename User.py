@@ -34,7 +34,7 @@ class User(Member):
         self.notification = []
 
     def __str__(self):
-        return f"User name: {self.name}, Number of posts: {self.post_counter} , Number of followers: {len(self.followers)}"
+        return f"User name: {self.name}, Number of posts: {self.post_counter}, Number of followers: {len(self.followers)}"
 
     # new follower
     def follow(self, usr):
@@ -70,7 +70,7 @@ class User(Member):
             self.update(post, string, commenter_liker)
 
     def print_notifications(self):
-        print(f"{self.name}'s notification:")
+        print(f"{self.name}'s notifications:")
         for i in self.notification:
             print(i)
 
