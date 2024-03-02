@@ -38,13 +38,15 @@ class User(Member):
 
     # new follower
     def follow(self, usr):
-        usr.followers.append(self)
-        print(self.name + " started following " + usr.name)
+        if self.online and self not in usr.followers:
+            usr.followers.append(self)
+            print(self.name + " started following " + usr.name)
 
     # remove follower
     def unfollow(self, usr):
-        usr.followers.remove(self)
-        print(self.name + " unfollowed " + usr.name)
+        if self.online and self in usr.followers:
+            usr.followers.remove(self)
+            print(self.name + " unfollowed " + usr.name)
 
     # def publish_post(self, post_type, context ,):
     #     PostFactory.create_post(post_type, context)
