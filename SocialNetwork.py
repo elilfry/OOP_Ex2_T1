@@ -32,7 +32,7 @@ class SocialNetwork:
         print("The social network " + name + " was created!")
 
     def sign_up(self, name, password):
-        if self.valid_password and self.valid_name:
+        if self.valid_password(password) and self.valid_name(name):
             new_user = User(name, password)
             self.__users.append(new_user)
 
@@ -64,7 +64,7 @@ class SocialNetwork:
         return True
 
     def valid_password(self, password):
-        if 4 <= password.len <= 8:
+        if 4 <= len(password) <= 8:
             return True
         return False
 

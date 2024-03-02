@@ -1,12 +1,3 @@
-"""
-price
-location
-
-
-set sold
-discount
-etc
-"""
 
 from Post import Post
 

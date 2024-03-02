@@ -6,15 +6,6 @@ from SalePost import SalePost
 
 from TextPost import TextPost
 
-"""
-data
-
-# name
-# password
-# set followers
-#connected or not binary
-"""
-
 
 class Member(ABC):
     @abstractmethod
@@ -59,10 +50,13 @@ class User(Member):
     #     PostFactory.create_post(post_type, context)
 
     def publish_post(self, post_type, context, price=None, location=None):
-        post = self.PostFactory.create_post(self, post_type, context, price, location)
-        self.post_counter += 1
-        self.notify(post, "post")
-        return post
+        if self.online:
+            post = self.PostFactory.create_post(self, post_type, context, price, location)
+            self.post_counter += 1
+            self.notify(post, "post")
+            return post
+        else:
+            return False
 
     def notify(self, post, string, commenter_liker=None):
         if string == "post":

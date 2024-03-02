@@ -48,19 +48,19 @@ class Post(ABC):
     def __init__(self, user, content):
         self.user = user
         self.content = content
-        self.like_counter = 0
+        self.likes =[]
 
     def __str__(self):
         return self.content
 
     def like(self, liker):
-        if self.user.online and self.user.name != liker.name:
-            self.like_counter += 1
-            self.user.notify(self, "like", liker)
+        if self.user.online and liker not in self.likes:
+            self.likes.append(liker)
+            if self.user.name != liker.name:
+                self.user.notify(self, "like", liker)
             # print(liker.name + " like post of " + self.user.name)
             # send notification
 
     def comment(self, commenter, content):
         if self.user.online and self.user.name != commenter.name:
             self.user.notify(content, "comment", commenter)
-        # p3.comment(u2, "Can you give me your phone number?")
