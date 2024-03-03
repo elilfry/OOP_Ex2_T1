@@ -27,4 +27,4 @@ class SalePost(Post):
         # check if the pass is correct and the user is online
         if password == self.user.get_password() and self.user.get_online():
             self.available = "Sold!"
-            print(f"{self.user.get_name}'s product is sold")
+            print(f"{self.user.get_name()}'s product is sold")
