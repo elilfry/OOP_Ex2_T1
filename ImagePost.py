@@ -14,7 +14,7 @@ class ImagePost(Post):
         print(self.__str__())
 
     def __str__(self): # print the picture
-        return f"{self.user.name} posted a picture\n"
+        return f"{self.user.get_name()} posted a picture\n"
 
     def display(self):  # display the picture
 

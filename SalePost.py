@@ -15,14 +15,16 @@ class SalePost(Post):
         print(self.__str__())
 
     def __str__(self):  # print the sale post
-        return f"{self.user.name} posted a product for sale:\n{self.available} {self.content}, price: {self.price}, pickup from: {self.location}\n"
+        return f"{self.user.get_name()} posted a product for sale:\n{self.available} {self.content}, price: {self.price}, pickup from: {self.location}\n"
 
     def discount(self, discount, password):  # discount a product
-        if password == self.user.password and self.user.online:  # check if the pass is correct and the user is online
+        # check if the pass is correct and the user is online
+        if password == self.user.get_password() and self.user.get_online():
             self.price = (self.price * (1-(discount/100)))
-            print(f"Discount on {self.user.name} product! the new price is: {self.price}")
+            print(f"Discount on {self.user.get_name()} product! the new price is: {self.price}")
 
-    def sold(self, password): # sell a product
-        if password == self.user.password and self.user.online: # check if the pass is correct and the user is online
+    def sold(self, password):  # sell a product
+        # check if the pass is correct and the user is online
+        if password == self.user.get_password() and self.user.get_online():
             self.available = "Sold!"
-            print(f"{self.user.name}'s product is sold")
+            print(f"{self.user.get_name}'s product is sold")

@@ -12,6 +12,6 @@ class TextPost(Post):
         print(self.__str__())
 
     def __str__(self):
-        return f"{self.user.name} published a post:\n\"{self.content}\"\n"
+        return f"{self.user.get_name()} published a post:\n\"{self.content}\"\n"
 
 
