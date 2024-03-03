@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402e473e-d440-4886-ab5b-de95d276fd91" name="Changes" comment="3.3 2:15" />
-    <list id="e2a0c797-9330-40e6-b4cd-c1974187d755" name="Changes by matanmarkovits" comment="Changes by matanmarkovits" />
+    <list default="true" id="402e473e-d440-4886-ab5b-de95d276fd91" name="Changes" comment="3.3 2:18">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
+    </list>
+    <list id="e2a0c797-9330-40e6-b4cd-c1974187d755" name="Changes by matanmarkovits" comment="Changes by matanmarkovits">
+      <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +32,24 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/SocialNetwork.py">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="0" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="2" end1="10" start2="1" end2="1" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="16" end1="17" start2="7" end2="8" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="27" end1="28" start2="18" end2="19" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="33" end1="35" start2="24" end2="26" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="40" end1="41" start2="31" end2="32" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="44" end1="45" start2="35" end2="36" changelist="e2a0c797-9330-40e6-b4cd-c1974187d755" />
+        <range start1="46" end1="48" start2="37" end2="39" changelist="e2a0c797-9330-40e6-b4cd-c1974187d755" />
+        <range start1="50" end1="51" start2="41" end2="42" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="54" end1="55" start2="45" end2="46" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="59" end1="61" start2="50" end2="52" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+        <range start1="65" end1="67" start2="56" end2="58" changelist="402e473e-d440-4886-ab5b-de95d276fd91" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -101,7 +128,8 @@
       <workItem from="1709154277190" duration="5220000" />
       <workItem from="1709190655902" duration="6590000" />
       <workItem from="1709414056236" duration="6648000" />
-      <workItem from="1709422597245" duration="1788000" />
+      <workItem from="1709422597245" duration="2047000" />
+      <workItem from="1709425269610" duration="798000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -271,7 +299,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1709424937459</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL‎-00022" summary="3.3 2:18">
+      <option name="closed" value="true" />
+      <created>1709425134639</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL‎-00022" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1709425134639</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +345,8 @@
     <MESSAGE value="3.3 1:43" />
     <MESSAGE value="3.3 1:49" />
     <MESSAGE value="3.3 2:15" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.3 2:15" />
+    <MESSAGE value="3.3 2:18" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.3 2:18" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP_Ex2_T1$main.coverage" NAME="main Coverage Results" MODIFIED="1709423123387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

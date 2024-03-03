@@ -1,66 +1,25 @@
-"""
-user
-data
 
-
-
-#like
-
-#comment
-"""
 # from enum import Enum
 from abc import ABC, abstractmethod
 
 
-# from SocialNetwork import SocialNetwork
-
-
-# class PostType(Enum):
-#     Text = "Text"
-#     Image = "Image"
-#     Sale = "Sale"
-
-
-# Factory class
-
-# class PostFactory:
-#     @staticmethod
-#     def create_post(user, post_type, content , price=None, location=None):
-#         if post_type == "Text":
-#             return TextPost(user, content)
-#         elif post_type == "Image":
-#             return ImagePost(user ,content)
-#         if post_type == "Sale":
-#             return SalePost(user ,content,price,location)
-#         else:
-#             return None
-# raise ValueError("Invalid post type")
-
-# def create_post(self, post_type, objectForSale, price, location):
-#     if post_type == PostType.Sale:
-#         return SalePost(objectForSale,price,location)
-#     else:
-#         raise ValueError("Invalid post type")
-
-
-# Post interface
 class Post(ABC):
-    def __init__(self, user, content):
+    def __init__(self, user, content):  # constructor
         self.user = user
         self.content = content
-        self.likes =[]
+        self.likes = []
 
-    def __str__(self):
+    def __str__(self):  # print the post
         return self.content
 
-    def like(self, liker):
+    def like(self, liker): # like a post
         if self.user.online and liker not in self.likes:
-            self.likes.append(liker)
-            if self.user.name != liker.name:
+            # check if the user is online and the liker did not like the post already
+            self.likes.append(liker)  # add the liker to the likes list
+            if self.user.name != liker.name:  # check if the liker is not the user
                 self.user.notify(self, "like", liker)
-            # print(liker.name + " like post of " + self.user.name)
-            # send notification
 
-    def comment(self, commenter, content):
+    def comment(self, commenter, content):  # comment a post
         if self.user.online and self.user.name != commenter.name:
+            # check if the user is online and the commenter is not the user
             self.user.notify(content, "comment", commenter)

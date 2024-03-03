@@ -9,48 +9,18 @@ from PIL import Image
 
 
 class ImagePost(Post):
-    def __init__(self, user,  content):
-        super().__init__(user, content)
+    def __init__(self, user,  content):  # constructor
+        super().__init__(user, content)  # call the parent constructor
         print(self.__str__())
 
-    def __str__(self):
+    def __str__(self): # print the picture
         return f"{self.user.name} posted a picture\n"
 
-    def display(self):
+    def display(self):  # display the picture
 
-        img = mpimg.imread(self.content)
-        plt.imshow(img)
+        img = mpimg.imread(self.content)  # read the image
+        plt.imshow(img)  # Display the image
         plt.axis('off')  # Hide axis
         plt.show()
         print("Shows picture")
 
-
-        # image_path = r"C:\Users\nnbbj\PycharmProjects\OOP_Ex2_T1\picT1.jpg"
-        # image = Image.open(image_path)
-        #
-        # # Display the image
-        # plt.imshow(image)
-        # plt.axis('off')  # Hide axis
-        # plt.show()
-        # print("Shows picture")
-
-    """""
-    from matplotlib import image as mpimg
-    from Post import Post
-    import matplotlib.pyplot as plt
-
-
-    class ImagePost(Post):
-
-        def __init__(self, owner, picture_path):
-            super().__init__(owner, picture_path)
-
-        def display(self):
-            img = mpimg.imread(self._content)
-            plt.imshow(img)
-            plt.show()
-            print("Shows picture")
-
-        def __str__(self):
-            return self._owner.username + " posted a picture" + "\n"
-    """""
